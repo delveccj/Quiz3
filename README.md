@@ -8,10 +8,7 @@
 3. Invite me (`delveccj`) as a collaborator to your repository.
 
 ### 2. Clone Your Repository Locally
-1. Open your terminal and clone your repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/Live_Quiz_Python_Project.git
-   ```
+1. Open your terminal and frok the repository.
 2. Navigate to the cloned directory:
    ```bash
    cd Live_Quiz_Python_Project
