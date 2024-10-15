@@ -15,7 +15,7 @@
    ```
 
 ### 3. Add Python Script for Extracting URLs
-1. Download the following Python script (`url_extractor.py`), which extracts all URLs from an HTML document:
+1. Download or copy the following Python script (`url_extractor.py`), which extracts all URLs from an HTML document:
    ```python
    # url_extractor.py
    from bs4 import BeautifulSoup
