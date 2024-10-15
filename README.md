@@ -8,7 +8,7 @@
 3. Invite me (`delveccj`) as a collaborator to your repository.
 
 ### 2. Clone Your Repository Locally
-1. Open your terminal and frok the repository.
+1. Open your terminal and fork the repository.
 2. Navigate to the cloned directory:
    ```bash
    cd Live_Quiz_Python_Project
