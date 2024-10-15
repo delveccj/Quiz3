@@ -74,6 +74,7 @@
    ```
 
 2. Ensure that the test checks if the URLs extracted from the `example.html` file match the expected URLs.
+3. HINT - It will fail the first time you run the test - you will need to first add the libary it uses and second 
 
 ### 6. Create a `requirements.txt` File
 1. Install **BeautifulSoup**:
