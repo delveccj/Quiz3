@@ -49,9 +49,9 @@
        <title>Sample Page</title>
    </head>
    <body>
-       <a href="https://example.com">Example</a>
-       <a href="https://github.com">GitHub</a>
-       <a href="https://www.python.org">Python</a>
+       <a href="">Example</a>
+       <a href="">GitHub</a>
+       <a href="">Python</a>
    </body>
    </html>
    ```
