@@ -39,5 +39,5 @@ jobs:
     # Step 5: Check for specific commit comment
     - name: Check for specific commit comment
       run: |
-        git log -1 --pretty=%B | grep "Live quiz complete"
+        git log -1 | grep "Live quiz complete"
       continue-on-error: false
