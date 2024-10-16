@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main  # Trigger workflow when code is pushed to the main branch
+  pull_request:
+    branches:
+      - main
+      - solution  # Adjust this as needed
+
 
 jobs:
   build:
