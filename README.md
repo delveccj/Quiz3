@@ -173,7 +173,7 @@ The test will fail.  You will need to fix the test's input file to make it work!
 
 ### 9. Add, Commit, and Push Your Changes
 
-1. Add all the files to Git **except** ```__pycache__`  You must not add that directory.
+1. Add all the files to Git **except** ```__pycache__```  You must not add that directory.
 2. Commit your changes with this exact message "Live quiz complete"
 3. Push your changes to GitHub
 
