@@ -1,4 +1,4 @@
-# Quiz3_Practice
+# Quiz3 Practice
 
 ## Instructions
 
