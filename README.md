@@ -177,20 +177,6 @@ The test will fail.  You will need to fix the test's input file to make it work!
 2. Commit your changes with this exact message "Live quiz complete"
 3. Push your changes to GitHub
 
-### 9. Push the Workflow File
-1. Add the workflow file:
-   ```bash
-   git add .github/workflows/workflow.yml
-   ```
-2. Commit the workflow file:
-   ```bash
-   git commit -m "Added GitHub Actions workflow"
-   ```
-3. Push the workflow to GitHub:
-   ```bash
-   git push origin main
-   ```
-
 ---
 
 ## Submission Instructions
