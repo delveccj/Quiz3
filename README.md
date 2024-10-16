@@ -115,7 +115,7 @@ Press Enter to open github.com in your browser...
    ```
 2. Create a `requirements.txt` file that will install beautifulsoup
 
-### 8. Fix the Failing Unit Test
+### 7. Fix the Failing Unit Test
 
 Run the unit tests as follows:
 
@@ -123,24 +123,6 @@ Run the unit tests as follows:
 python3.11 -m unittest test_url_extractor.py
 ```
 The test will fail.  You will need to fix the test's input file to make it work!
-
-### 7. Add, Commit, and Push Your Changes
-1. Add all the files to Git:
-   ```bash
-   git add .
-   ```
-2. Commit your changes with a descriptive message:
-   ```bash
-   git commit -m "Added URL extractor script and test case"
-   ```
-3. Push your changes to GitHub:
-   ```bash
-   git push origin main
-   ```
-
----
-
-## GitHub Workflow for Testing
 
 ### 8. Add a GitHub Actions Workflow
 1. Create a directory `.github/workflows` in the root of your repository:
@@ -188,6 +170,12 @@ The test will fail.  You will need to fix the test's input file to make it work!
            git log -1 --pretty=%B | grep "Live quiz complete"
          continue-on-error: false
    ```
+
+### 9. Add, Commit, and Push Your Changes
+
+1. Add all the files to Git **except** ```__pycache__`  You must not add that directory.
+2. Commit your changes with this exact message "Live quiz complete"
+3. Push your changes to GitHub
 
 ### 9. Push the Workflow File
 1. Add the workflow file:
