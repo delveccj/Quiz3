@@ -2,10 +2,16 @@
 
 ## Instructions
 
+### Prep Steps
+You need to ensure you are logged into GitHub via gh.  To do so, issue the following command:
+
+
+
 ### 1. Create a GitHub Repository
 1. Log in to your GitHub account.
 2. Create a new **private repository** named `Live_Quiz_Python_Project`.
-3. Invite me (`delveccj`) as a collaborator to your repository.
+3. Add a README and a licesne to the repositry.
+4. Invite me (`delveccj`) as a collaborator to your repository.
 
 ### 2. Clone Your Repository Locally
 1. Open your terminal and clone the repository.
@@ -13,6 +19,32 @@
    ```bash
    cd Live_Quiz_Python_Project
    ```
+   
+You may run into an error as follows (if you have no error and you cloned without issue, move to Step 3):
+
+```bash
+MC-28907:Quiz3 delveccj$ git clone https://github.com/delveccj/Quiz3.git
+Cloning into 'Quiz3'...
+remote: Repository not found.
+fatal: repository 'https://github.com/delveccj/Quiz3.git/' not found
+```
+If so, you will need to login to GitHub once again (the credentials provided by the browser may have expired.)  Here are the steps:
+
+```bash
+MC-28907:Quiz3 delveccj$ gh auth login
+? What account do you want to log into? GitHub.com
+? What is your preferred protocol for Git operations on this host? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: CB69-1689
+Press Enter to open github.com in your browser... 
+✓ Authentication complete.
+- gh config set -h github.com git_protocol https
+✓ Configured git protocol
+✓ Logged in as delveccj
+! You were already logged in to this account
+```
 
 ### 3. Add Python Script for Extracting URLs
 1. Download or copy the following Python script (`url_extractor.py`), which extracts all URLs from an HTML document:
