@@ -113,11 +113,16 @@ Press Enter to open github.com in your browser...
    ```bash
    pip install beautifulsoup4
    ```
-2. Create a `requirements.txt` file to capture dependencies:
-   ```bash
-   pip freeze > requirements.txt
-   ```
-3. Make sure the `requirements.txt` includes `beautifulsoup4`.
+2. Create a `requirements.txt` file that will install beautifulsoup
+
+### 8. Fix the Failing Unit Test
+
+Run the unit tests as follows:
+
+```bash
+python3.11 -m unittest test_url_extractor.py
+```
+The test will fail.  You will need to fix the test's input file to make it work!
 
 ### 7. Add, Commit, and Push Your Changes
 1. Add all the files to Git:
